@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  background: #d5eeff;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #ff895d;
+  padding: 16px 32px;
+  margin: auto -16px;
+}
+
+header h1 {
+  color: #007cb9;
+  font-family: McLaren, cursive;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.note {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px #ff895d;
+  padding: 10px;
+  width: 260px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 4px;
+  color: #005689;
+  background-color: #ff895d;
+  border: none;
+  font-weight: bold;
+  border-radius: 10%;
+  width: 64px;
+  height: 32px;
+  cursor: pointer;
+}
+
+form.create-todo {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 12px;
+  border-radius: 7px;
+  box-shadow: 0.5px 0.5px #ff895d;
+}
+
+form.create-todo input,
+form.create-todo textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-todo button {
+  position: absolute;
+  right: 16px;
+  bottom: 12px;
+  background: #ff895d;
+  color: #005689;
+  border: none;
+  border-radius: 30%;
+  font-weight: bold;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  outline: none;
+}
